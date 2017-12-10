@@ -1,0 +1,106 @@
+.subscribeInformation {
+    padding: 15px;
+    width: calc(100% - 30px);
+    background-color: #2C3E50;
+    overflow: hidden;
+}
+.subscribeInformation h4 {
+    margin: 0;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.subscribeButton {
+    margin-left: 10px;
+    padding: 0 20px;
+    background-color: #1e87f0;
+    color: #FFFFFF;
+    border-radius: 14px;
+    display: inline-block;
+}
+.subscribeButton:hover {
+    cursor: pointer;
+}
+nav {
+    padding: 10px 20px;
+    background: linear-gradient(to left, #28a5f5, #1e87f0);
+    border-bottom: 1px solid #EEEEEE;
+    overflow: hidden;
+}
+.nav-center {
+    margin: auto;
+    max-width: 960px;
+    overflow: hidden;
+}
+nav h3 {
+    margin: 0;
+    margin-right: 30px;
+    height: 40px;
+    line-height: 40px;
+    font-size: px;
+    color: #FFFFFF;
+    float: left;
+}
+nav p {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #FFFFFF;
+    float: left;
+}
+nav a:hover p {
+    color: #EEEEEE;
+}
+.capitalLetter {
+    font-size: 22px;
+    font-weight: 700;
+}
+nav input {
+    margin: 4px 0;
+    padding: 0 10px;
+    max-width: 150px;
+    height: 30px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    border: 1px solid #EEEEEE;
+    float: right;
+}
+nav input:focus {
+    outline: none;
+}
+nav button {
+    margin: 4px 0;
+    margin-left: 10px;
+    padding: 0 15px;
+    height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #28a5f5;
+    border: 1px solid #FFFFFF;
+    float: right;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+nav button:hover {
+    cursor: pointer;
+    background-color: #1e87f0;
+    border: 1px solid #FFFFFF;
+    outline: none;
+}
+nav button:active {
+    background-color: #1e87f0;
+    border: 1px solid #FFFFFF;
+    outline: none;
+}
+nav button:focus {
+    background-color: #1e87f0;
+    border: 1px solid #FFFFFF;
+    outline: none;
+}
